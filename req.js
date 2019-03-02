@@ -14,6 +14,5 @@ xhr.setRequestHeader("Accept", "application/sparql-results+json");
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.setRequestHeader("Authorization", "Bearer YOUR_DYDRA_API_KEY");
 xhr.setRequestHeader("cache-control", "no-cache");
-xhr.setRequestHeader("Postman-Token", "0f8c2131-0426-446c-b16d-632cfd1e16f8");
 
 xhr.send(data);
