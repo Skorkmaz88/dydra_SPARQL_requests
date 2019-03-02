@@ -1,0 +1,7 @@
+curl -X POST \
+  http://dydra.com/skorkmaz/movielens1k/sparql \
+  -H 'Accept: application/sparql-results+json' \
+  -H 'Authorization: Bearer YOUR_DYDRA_API_KEY' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'cache-control: no-cache' \
+  -d 'query=select%20*%20where%20%7B%20%7B%20graph%20%3Fg%20%7B%3Fs%20%3Fp%20%3Fo%7D%20%7D%20union%20%7B%3Fs%20%3Fp%20%3Fo%7D%20%7D%20limit%2010&undefined='
