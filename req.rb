@@ -1,7 +1,7 @@
 require 'uri'
 require 'net/http'
 
-url = URI("http://dydra.com/skorkmaz/movielens1k/sparql")
+url = URI("https://dydra.com/skorkmaz/movielens1k/sparql")
 
 http = Net::HTTP.new(url.host, url.port)
 
