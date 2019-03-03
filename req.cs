@@ -1,4 +1,4 @@
-var client = new RestClient("http://dydra.com/skorkmaz/movielens1k/sparql");
+var client = new RestClient("https://dydra.com/skorkmaz/movielens1k/sparql");
 var request = new RestRequest(Method.POST);
 request.AddHeader("cache-control", "no-cache");
 request.AddHeader("Authorization", "Bearer YOUR_DYDRA_API_KEY");
