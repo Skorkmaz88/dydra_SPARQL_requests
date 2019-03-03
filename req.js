@@ -9,7 +9,7 @@ xhr.addEventListener("readystatechange", function () {
   }
 });
 
-xhr.open("POST", "http://dydra.com/skorkmaz/movielens1k/sparql");
+xhr.open("POST", "https://dydra.com/skorkmaz/movielens1k/sparql");
 xhr.setRequestHeader("Accept", "application/sparql-results+json");
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 xhr.setRequestHeader("Authorization", "Bearer YOUR_DYDRA_API_KEY");
