@@ -1,7 +1,7 @@
 var request = require("request");
 
 var options = { method: 'POST',
-  url: 'http://dydra.com/skorkmaz/movielens1k/sparql',
+  url: 'https://dydra.com/skorkmaz/movielens1k/sparql',
   headers: 
    { 'cache-control': 'no-cache',
      Authorization: 'Bearer YOUR_DYDRA_API_KEY',
